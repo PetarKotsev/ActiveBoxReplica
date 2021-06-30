@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Cardo;
+    src: url(../fonts/Cardo/Cardo-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+:root {
+    --banner-text-color: #d7d7ff;
+    --text-grey: #8b8b8b;
+    --text-white: #ceced8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Raleway;
+}
+
+.in-page-size {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.btn--red {
+    font-family: Raleway;
+    outline: none;
+    border: none;
+    background-color: #E84546;
+    color: white;
+    display: block;
+    padding: .7rem 2rem;
+}
+
+.btn--red:hover {
+    background-color: #ff5031;
+}
+
+.align-text-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .in-page-size {
+        /* margin: 0 2rem; */
+    } 
+}

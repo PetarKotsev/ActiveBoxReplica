@@ -1,0 +1,30 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem 3rem;
+    padding: 5rem 3rem;
+    font-family: Raleway;
+}
+
+.card__icon {
+    margin: 0rem 0;
+}
+
+.card__title {
+    margin: 2em 0;
+}
+
+@media only screen and (max-width: 900px) {
+   .features {
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(3,1fr);
+   } 
+}
+
+@media only screen and (max-width: 650px) {
+    .features {
+       grid-template-columns: 1fr;
+       grid-template-rows: repeat(3,1fr);
+    }
+}

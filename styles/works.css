@@ -1,0 +1,26 @@
+.works {
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: repeat(2, 25vw);
+    gap: 0 0;
+    overflow: hidden;
+}
+
+.discripter {
+    display: hidden;
+}
+
+.tile {
+    background-color: #aa;
+}
+
+.tile__picture {
+    height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .works {
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: repeat(4, 50vw)
+    }
+}

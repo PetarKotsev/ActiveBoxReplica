@@ -1,0 +1,37 @@
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #3a3e63;
+    padding: 3em 0;
+}
+
+.contact-us__title {
+    color: var(--text-white);
+    margin-bottom: 1em;
+}
+
+.contact-us__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.contact-us__text {
+    color: var(--text-grey)
+}
+
+.copyright {
+    background-color: #313455;
+    color: var(--text-grey);
+    padding: 1rem;
+}
+
+.container__column-3 {
+    width: 33%;
+    min-width: 200px;
+    max-width: 350px;
+    padding: 1.5rem 1rem;
+}
+

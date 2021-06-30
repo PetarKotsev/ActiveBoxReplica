@@ -1,0 +1,99 @@
+.banner {
+    background-image: url(../assets/header.jpg);
+    /* height: 600px; */
+    padding-bottom: 5rem;
+}
+
+.banner__nav{
+    display: flex;
+    border-bottom: 1px solid var(--text-grey);
+    padding: 2em 0; 
+    justify-content: space-between;
+    font-family: Raleway;
+    align-items: center;
+}
+
+.nav__item-container {
+    display: flex;
+}
+
+.nav__item {
+    text-decoration: none;
+    list-style-type: none;
+    margin: .3em 0 .3em 2em;
+    color: var(--text-white);
+}
+
+.nav__item-link {
+    color: var(--text-white);
+}
+
+.nav__item-link:hover {
+    font-weight: 700;
+}
+
+.nav__item:hover {
+    color: white;
+}
+
+.banner__main-title {
+    font-family: "Open Sans";
+    font-size: 2.5rem;
+    color: white;
+    margin: 2em 0 0 0;
+    text-align: center;
+}
+
+.banner__subtitle {
+    font-family: Raleway;
+    font-size: 1.1em;
+    color: var(--text-white);
+    max-width: 600px;
+    margin: 1.5em auto 0 auto;
+    text-align: center;
+}
+
+.banner__button {
+    margin-top: 5em;
+}
+
+.mobile-menu__button {
+    /* margin-right: 1rem; */
+    padding: .3em;
+    border: 2px solid white;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu__icon {
+    font-size: 1.4rem;
+    color: var(--text-white)
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .banner {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav__item-container {
+        display: none;
+    }
+
+    .mobile-menu__button {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .banner__main-title {
+        font-size: 2rem;
+    }
+    .banner__subtitle {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+.download {
+    padding: 3rem;
+}
+
+.download__title {
+    font-weight: normal;
+}
+
+.download__subtitle {
+    font-weight: bolder;
+}
+
+.download__btn {
+    margin-top: 4em;
+}
+
