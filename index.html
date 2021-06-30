@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="./styles/testimonials.css">
     <link rel="stylesheet" type="text/css" href="./styles/download.css">
     <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="./styles/mobile-menu.css">
+
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">    <title>ActiveBox</title>
 </head>
@@ -22,16 +24,33 @@
                 <img src="./assets/logo.png" alt="Logo" class="nav__logo">
             </div>
             <ul class="nav__item-container uppercase">
-                <li class="nav__item"><a class="nav__item-link" href="#">Features</a></li>
-                <li class="nav__item"><a class="nav__item-link" href="#">Works</a></li>
-                <li class="nav__item"><a class="nav__item-link" href="#">Our Team</a></li>
-                <li class="nav__item"><a class="nav__item-link" href="#">Testimonials</a></li>
-                <li class="nav__item"><a class="nav__item-link" href="#">Download</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#features">Features</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#works">Works</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#team">Our Team</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#download">Download</a></li>
             </ul>
-            <div class="mobile-menu__button">
+            <div class="mobile-menu__button" id="mobileMenuBtn">
                 <i class="fas fa-ellipsis-h mobile-menu__icon"></i>
             </div>
         </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu__item">
+                <a class="mobile-menu__item-text" href="#features">Features</a>
+            </div>
+            <div class="mobile-menu__item">
+                <a class="mobile-menu__item-text" href="#works">Works</a>
+            </div>
+            <div class="mobile-menu__item">
+                <a class="mobile-menu__item-text" href="#team">Our team</a>
+            </div>
+            <div class="mobile-menu__item">
+                <a class="mobile-menu__item-text" href="#testimonials">Testimonials</a>
+            </div>
+            <div class="mobile-menu__item">
+                <a class="mobile-menu__item-text" href="#download">Download</a>
+            </div>
+        </div>
         <div class="banner__message in-page-size">
             <h1 class="banner__main-title">Your favourite one page<br/> multy perpose template</h1>
             <p class="banner__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima inventore vero molestiae eum non!</p>
@@ -254,25 +273,8 @@
         </div>
     </footer>
 
-    <!-- Mobile menu -->
-    <div class="mobile-menu">
-        <div class="mobile-menu__item">
-            <a class="mobile-menu__item-text" href="#features">Features</a>
-        </div>
-        <div class="mobile-menu__item">
-            <a class="mobile-menu__item-text" href="#works">Works</a>
-        </div>
-        <div class="mobile-menu__item">
-            <a class="mobile-menu__item-text" href="#team">Our team</a>
-        </div>
-        <div class="mobile-menu__item">
-            <a class="mobile-menu__item-text" href="#testimonials">Testimonials</a>
-        </div>
-        <div class="mobile-menu__item">
-            <a class="mobile-menu__item-text" href="#download">Download</a>
-        </div>
-    </div>
     <!-- Scripts -->
     <script src="js/slider.js"></script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 </html>

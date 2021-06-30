@@ -1,0 +1,23 @@
+.mobile-menu {
+    text-align: center;
+    font-size: 1.5rem;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: opacity 2s;
+    border-bottom: 1px solid var(--text-grey);
+}
+
+.mobile-menu__item {
+    padding: 1rem 2rem;
+}
+
+.mobile-menu__item-text {
+    color: white;
+}
+
+@media only screen and (min-width: 900px) {
+    .mobile-menu {
+        display: none;
+    }
+}

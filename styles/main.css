@@ -64,9 +64,3 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-
-@media only screen and (max-width: 1300px) {
-    .in-page-size {
-        /* margin: 0 2rem; */
-    } 
-}
