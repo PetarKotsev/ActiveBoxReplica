@@ -7,7 +7,6 @@
 }
 
 .discripter {
-    /* display: hidden; */
     position: absolute;
     left: 0;
     top: 0;
@@ -22,6 +21,7 @@
     transition: opacity 1s;
     padding: 2rem;
     color: white;
+    font-size: 0.8rem;
 }
 
 .discripter:hover {
